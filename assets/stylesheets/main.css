@@ -1,0 +1,42 @@
+
+div {
+	border:2px solid blue;
+}
+.italic-font {
+	font-style: italic;
+	font-size: 50px;
+	color:yellow;
+}
+h2 {
+	display: inline;
+}
+p {
+	display: inline;
+}
+.cool {
+	color: green;
+}
+code {
+	background: rgb(255, 102, 0);
+	color: blue;
+	font: 24px/12px Courier;
+	display: inline-block;
+	height: 70px;
+	margin: 0px 14px;
+	padding-top: 20 px;
+	text-align: center;
+	width: 90px;
+}
+.border-solid {
+	border: 6px solid black;
+	border-bottom-color: green;
+}
+.border-double {
+	border: 8px double black;
+}
+.border-dashed {
+	border: 10px dashed black;
+}
+.border-dotted {
+	border: 12px dotted black;
+}
