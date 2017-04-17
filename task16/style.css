@@ -1,0 +1,38 @@
+body {
+  background-color: #001646;
+  font-family: Arial;
+}
+main {
+  text-align: center;
+  width: 970px;
+  margin: auto;
+}
+.white-color {
+  color: #ffffff;
+}
+nav > div {
+  height: 30px;
+  padding-top: 3px;
+}
+section {
+  background: black;
+  height: 170px;
+}
+article {
+  font-family: Verdana;
+  font-size: small;
+  text-align: justify;
+  padding-top: 40px;
+}
+figure {
+height: 280px;
+}
+nav {
+  width: 200px;
+  float: left;
+}
+footer {
+  height: 20px;
+  text-align: center;
+   background-color: #103898;
+}
