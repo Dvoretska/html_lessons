@@ -1,0 +1,9 @@
+.border {
+    border: 30px solid;
+    padding: 20px;
+    -moz-border-image: url(border.png) 30 round round;
+    -webkit-border-image: url(border.png) 30 round round; 
+    -o-border-image: url(border.png) 30 round round;
+    border-image: url(border.png) 30 round round;
+    background: yellow;
+}
