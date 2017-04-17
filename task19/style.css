@@ -1,0 +1,4 @@
+input[type="search"]:focus {
+	color: red;
+	border: 1px solid blue;
+}
