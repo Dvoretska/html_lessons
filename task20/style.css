@@ -1,0 +1,18 @@
+div {
+	background: black;
+	padding: 10px;
+}
+.first-link {
+	color: red;
+	border-right: 1px solid white;
+	padding: 5px;
+}
+.second-link {
+	color: green;
+	border-right: 1px solid white;
+	padding: 5px;
+}
+.third-link {
+	color: yellow;
+	padding: 5px;
+}
