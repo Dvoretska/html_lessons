@@ -1,0 +1,16 @@
+table {
+	width: 600px;
+	border-collapse: collapse;
+	margin: auto;
+}
+table, td {
+	border: 1px solid black;
+}
+.left-col {
+	width: 150px;
+}
+td {
+	height: 30px;
+	vertical-align: top;
+	text-align: center;
+}
