@@ -1,0 +1,17 @@
+.black, .white {
+	width: 50px;
+	height: 50px;
+}
+.black {
+	background: black;
+	position: absolute;
+	border: 1px solid white;
+	outline: 1px solid silver;
+}
+.white {
+	background: white;
+	position: absolute;
+	top: 33px;
+	left: 33px;
+	border: 2px solid silver;
+}
