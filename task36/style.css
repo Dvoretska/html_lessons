@@ -1,0 +1,10 @@
+div {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	border: 1px solid silver;
+	text-align: center;
+	border-radius: 5px;
+	background: linear-gradient(rgb(255, 255, 255), rgba(192, 192, 192, 0.5));
+	box-shadow: 0 0 0.5px 1px rgba(122,122,122,0.3);
+	margin-right: 5px;
