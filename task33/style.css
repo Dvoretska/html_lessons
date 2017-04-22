@@ -1,0 +1,19 @@
+div {
+	height: 20px;
+	background: linear-gradient(#293f50, silver);
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+div::before {
+	content: "";
+	position: absolute;
+	width: 30%;
+	height: 20px;
+	background: blue;
+	border-radius: 10px 0px 0px 10px;
+	box-shadow: 5px 0px 5px;
+	background: radial-gradient(blue, turquoise);
+
+}
