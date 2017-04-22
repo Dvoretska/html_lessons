@@ -1,0 +1,31 @@
+div {
+	border: 5px solid black;
+	width: 300px;
+	height: 100px;
+	margin: 10px auto;
+	position: relative;
+
+}
+div::before, div::after {
+    content: '';
+    position: absolute;
+}
+div::before { height: 100%; }
+.green {
+	background: green;
+}
+.red::before {
+	width: 33%;
+	background: red;
+}
+.yellow::before {
+	width: 66%;
+	background: yellow;
+}
+div::after {
+	width: 20px;
+	height: 30px;
+	background: black;
+	top: 35px;
+	left: -25px;
+}
