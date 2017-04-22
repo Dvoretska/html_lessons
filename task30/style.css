@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+}
+button {
+	display: inline-block;
+	background: radial-gradient(white, red);
+	border: white double;
+	border-radius: 25px;
+	width: 150px;
+	height: 45px;
+	font-size: 20px;
+}
