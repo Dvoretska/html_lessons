@@ -1,0 +1,31 @@
+.block {
+	width: 400px;
+	margin: 10px auto;
+	position: relative;
+	background: green;
+	color: white;
+	padding: 30px;
+}
+.block::after, .block::before, .white-square {
+    content: '';
+    position: absolute;
+    width: 7px;
+	height: 7px;
+	background: white;
+}
+.block::before {
+	top: 0px;
+	left: 0px;
+}
+.block::after {
+	top: 0px;
+	left: 453px;
+}
+.left-pos {
+	top: 72px;
+	left: 0px;
+}
+.right-pos {
+	top: 72px;
+	left: 453px;
+}
