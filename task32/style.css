@@ -1,0 +1,26 @@
+.picture {
+	background: url("../task2/river.jpg") no-repeat;
+	width: 600px;
+	height: 380px;
+	margin: auto;
+}
+.black, .red {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	border: 2px solid white;
+	display: inline-block;
+	margin: 3px;
+}
+.black {
+	background: black;
+	cursor: pointer;
+}
+.red {
+	background: red;
+	box-shadow: 0 0 5px 4px white;
+}
+.pagination {
+	text-align: center;
+	padding-top: 345px;
+}
