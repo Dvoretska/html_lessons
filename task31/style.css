@@ -1,0 +1,20 @@
+fieldset {
+	background: url("../task2/check-bg.png") no-repeat;
+	height: 500px;
+	background-color: #c0c0c0;
+}
+legend {
+	color: brown;
+	font-size: 20px;
+}
+input[type=submit]{
+	border: 2px solid white;
+	background-color: brown;
+	color: white;
+}
+div {
+	margin-left: 150px;
+}
+label {
+	padding-bottom: 20px;
+}
