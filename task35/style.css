@@ -1,0 +1,12 @@
+div {
+	width: 100px;
+	height: 65px;
+	margin: auto;
+	border-radius: 100%;
+	font-size: 25px;
+	background: green;
+	border: 20px solid blue;
+	text-align: center;
+	padding-top: 35px;
+	border-right: 20px solid yellow;
+}
