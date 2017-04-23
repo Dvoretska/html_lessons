@@ -1,0 +1,27 @@
+li {
+	display: inline-block;
+	font-size: 20px;
+	color: brown;
+	text-align: center;
+	padding-top: 8px;
+}
+div {
+	background: #EFECEA;
+	height: 40px;
+	border-bottom: 5px solid #D0CCC8;
+}
+a {
+	text-decoration: none;
+	color: brown;
+}
+li.pager-current {
+	width: 50px;
+	height: 32px;
+	background: #A9A6A4;
+	border-bottom: 5px solid #565452;
+	margin-right: 25px;
+	color: black;
+}
+li.pager-item {
+	margin-right: 50px;
+}
