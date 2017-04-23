@@ -1,0 +1,52 @@
+/*Первый способ*/
+.links { 
+    background: #F6967D;
+}
+.links a {
+    color: #FFFDEB;
+    display: inline-block;
+    border-right: 1px solid #B62025;
+    padding: 5px 10px;
+}
+.links a[href="4.html"] {
+	border-right: 0px;
+}
+/*Второй способ
+.links { 
+    background: #F6967D;
+}
+.links a {
+    color: #FFFDEB;
+    display: inline-block;
+    border-right: 1px solid #B62025;
+    padding: 5px 10px;
+}
+a:last-child {
+	border-right: 0px;
+}*/
+/*Третий способ
+/*.links { 
+    background: #F6967D;
+}
+.links a {
+    color: #FFFDEB;
+    display: inline-block;
+    border-left: 1px solid #B62025;
+    padding: 5px 10px;
+}
+a:first-child {
+	border-left: 0px;
+}*/
+/*Четвертый способ
+.links { 
+    background: #F6967D;
+    overflow: hidden;
+}
+.links a {
+    color: #FFFDEB;
+    display: inline-block;
+    border-left: 1px solid #B62025;
+    padding: 5px 10px;
+    position: relative;
+    left: -1px;
+}*/
