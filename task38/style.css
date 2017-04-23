@@ -1,0 +1,13 @@
+   body { 
+   	background: white; 
+   }
+   img {
+    position: absolute;
+    left: 200px; top: 50px;
+    border: 2px solid #28a028;
+ 	vertical-align: bottom;
+ 	display: block;
+ 	margin-bottom: -5px;
+ 	width: 145px;
+ 	height: 145px;
+   }

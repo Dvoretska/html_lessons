@@ -1,0 +1,26 @@
+table {
+	border-collapse:collapse;
+	text-align:center;
+	counter-reset:sum 17;
+}
+td {
+	width:30px;
+	height:30px;
+	border:1px solid black;
+	vertical-align:middle;
+	
+}
+td:first-child, tr:last-child td {
+	border:0;
+	
+ }
+tr:before {
+    counter-increment:sum -1;
+    content: counter(sum) "";
+	position:relative;
+	left:20px; top:-25px;
+	color:#f00;
+   }
+tr:last-child {
+	color:red;
+}

@@ -1,0 +1,21 @@
+
+table {
+	border-collapse: collapse;
+	font: 0.9em 'Arial', sans-serif;
+	counter-reset: list 17;
+}
+td {
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	text-align: center;
+}
+td:first-child, tr:last-child td {
+	border: 0px;
+}
+tr:before {
+	content: counter(list);
+	counter-increment: list -1;
+	position:relative;
+	left:20px; top:-25px;
+   }
