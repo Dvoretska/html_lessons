@@ -1,0 +1,23 @@
+div {
+	display: inline-block;
+	width: 150px;
+}
+div:first-child {
+	margin-left: 400px;
+}
+div:hover {
+	box-shadow: 0 0 5px;
+}
+p {
+	text-align: center;
+}
+p.data {
+	font-size: 23px;
+	background: blue;
+	color: white;
+	margin-top: 0px;
+}
+p.temperature {
+	font-size: 27px;
+	margin-bottom: 0px;
+}
