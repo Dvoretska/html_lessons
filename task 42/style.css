@@ -1,0 +1,19 @@
+
+span:after {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+}
+input:valid + span:after {
+	content:"";
+	background: green;
+}
+
+input:invalid + span:after {
+	content:"";
+	background: red;
+}
+div {
+	margin: 10px;
+}

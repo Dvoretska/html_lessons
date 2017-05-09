@@ -1,0 +1,42 @@
+div {
+	background: #A4A4A4;
+	height: 50px;
+	border-radius: 7px;
+}
+.button {
+	width: 30px;
+	height: 25px;
+	border: 1px solid black;
+	box-shadow: 0 0 5px;
+	text-align: center;
+	padding-top: 5px;
+	float: right;
+	margin: 10px;
+	color: white; 
+	font-weight: bold;
+}
+.red {
+	background: red;
+	font-size: 50px;
+	line-height: 10px; 
+}
+.green {
+	background: green;
+	font-size: 50px;
+	line-height: 20px; 
+}
+.number {
+	border: none;
+	box-shadow: none;
+}
+.main:before {
+	content: "9691";
+	color: white;
+	display: inline-block;
+	text-align: center;
+	line-height: 45px;
+	width: 200px;
+	height: 50px;
+	background: green;
+	border-radius: 7px 0 0 7px;
+}
