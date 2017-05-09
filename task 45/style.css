@@ -1,0 +1,19 @@
+body {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	border: 1px solid black;
+	width: 170px;
+	height: 30px;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+}
+a:hover {
+	color: red;
+	cursor: pointer;
+	box-shadow: 0 0 3px black;
+	background: #F2F2F2;
+}

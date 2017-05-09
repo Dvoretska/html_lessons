@@ -1,0 +1,20 @@
+div {
+  width: 345px;
+  height: 60px;
+  font-size: 50px;
+  border: 1px solid black;
+  position: relative;
+  padding-top: 19px;
+  padding-left: 10px;
+}
+div:after {
+  content: "WHITE";
+  padding-top: 19px;
+  width: 180px;
+  height: 58px;
+  color: white;
+  font-size: 50px;
+  background: black;
+  position: absolute;
+  top: 1px;
+}

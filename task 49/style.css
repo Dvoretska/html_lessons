@@ -1,0 +1,35 @@
+form {
+	background: blue;
+	width: 500px;
+	margin: auto;
+	border: 3px solid #08088A;
+	color: white;
+}
+p {
+	font-size: 50px;
+	border-bottom: 1px solid white;
+	margin: 20px 0 20px 0;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+input[type="submit"] {
+	background: yellow;
+	width: 100px;
+	height: 30px;
+	margin: 15px;
+}
+.form-group {
+	width: 230px;
+	height: 70px;
+	float: left;
+	margin-top: 15px;
+}
+input {
+	width: 200px;
+}
+input[type="email"] {
+	width: 430px;
+}
+.group {
+	margin-left: 15px;
+}
